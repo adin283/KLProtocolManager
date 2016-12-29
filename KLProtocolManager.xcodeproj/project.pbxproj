@@ -15,6 +15,7 @@
 		DF1F91B01E14AB820099AB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F91AE1E14AB820099AB0C /* LaunchScreen.storyboard */; };
 		DF1F91BB1E14AB820099AB0C /* KLProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91BA1E14AB820099AB0C /* KLProtocolManagerTests.m */; };
 		DF1F91C61E14AB820099AB0C /* KLProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91C51E14AB820099AB0C /* KLProtocolManagerUITests.m */; };
+		DF1F91D61E14AEDD0099AB0C /* KLProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91D51E14AEDD0099AB0C /* KLProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DF1F91C11E14AB820099AB0C /* KLProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF1F91C51E14AB820099AB0C /* KLProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLProtocolManagerUITests.m; sourceTree = "<group>"; };
 		DF1F91C71E14AB820099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F91D41E14AEDD0099AB0C /* KLProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLProtocolManager.h; sourceTree = "<group>"; };
+		DF1F91D51E14AEDD0099AB0C /* KLProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		DF1F919F1E14AB820099AB0C /* KLProtocolManager */ = {
 			isa = PBXGroup;
 			children = (
+				DF1F91D31E14AEC10099AB0C /* KLProtocolManager */,
 				DF1F91A31E14AB820099AB0C /* AppDelegate.h */,
 				DF1F91A41E14AB820099AB0C /* AppDelegate.m */,
 				DF1F91A61E14AB820099AB0C /* ViewController.h */,
@@ -138,6 +142,15 @@
 				DF1F91C71E14AB820099AB0C /* Info.plist */,
 			);
 			path = KLProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+		DF1F91D31E14AEC10099AB0C /* KLProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F91D41E14AEDD0099AB0C /* KLProtocolManager.h */,
+				DF1F91D51E14AEDD0099AB0C /* KLProtocolManager.m */,
+			);
+			path = KLProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			files = (
 				DF1F91A81E14AB820099AB0C /* ViewController.m in Sources */,
 				DF1F91A51E14AB820099AB0C /* AppDelegate.m in Sources */,
+				DF1F91D61E14AEDD0099AB0C /* KLProtocolManager.m in Sources */,
 				DF1F91A21E14AB820099AB0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
