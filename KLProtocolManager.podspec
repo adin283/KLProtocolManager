@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KLProtocolManager"
-  s.version      = "0.0.3"
-  s.summary      = "A short description of KLProtocolManager."
+  s.version      = "0.0.4"
+  s.summary      = "Modular develop module protocol manager."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  Modular Develop with protocol
                    DESC
 
   s.homepage     = "https://github.com/adin283/KLProtocolManager"
