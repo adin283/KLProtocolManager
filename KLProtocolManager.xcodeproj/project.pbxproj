@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF1F91A21E14AB820099AB0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91A11E14AB820099AB0C /* main.m */; };
+		DF1F91A51E14AB820099AB0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91A41E14AB820099AB0C /* AppDelegate.m */; };
+		DF1F91A81E14AB820099AB0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91A71E14AB820099AB0C /* ViewController.m */; };
+		DF1F91AB1E14AB820099AB0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F91A91E14AB820099AB0C /* Main.storyboard */; };
+		DF1F91AD1E14AB820099AB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF1F91AC1E14AB820099AB0C /* Assets.xcassets */; };
+		DF1F91B01E14AB820099AB0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF1F91AE1E14AB820099AB0C /* LaunchScreen.storyboard */; };
+		DF1F91BB1E14AB820099AB0C /* KLProtocolManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91BA1E14AB820099AB0C /* KLProtocolManagerTests.m */; };
+		DF1F91C61E14AB820099AB0C /* KLProtocolManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF1F91C51E14AB820099AB0C /* KLProtocolManagerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF1F91B71E14AB820099AB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1F91951E14AB820099AB0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1F919C1E14AB820099AB0C;
+			remoteInfo = KLProtocolManager;
+		};
+		DF1F91C21E14AB820099AB0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF1F91951E14AB820099AB0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF1F919C1E14AB820099AB0C;
+			remoteInfo = KLProtocolManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF1F919D1E14AB820099AB0C /* KLProtocolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLProtocolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F91A11E14AB820099AB0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF1F91A31E14AB820099AB0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF1F91A41E14AB820099AB0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF1F91A61E14AB820099AB0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF1F91A71E14AB820099AB0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF1F91AA1E14AB820099AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF1F91AC1E14AB820099AB0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF1F91AF1E14AB820099AB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF1F91B11E14AB820099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F91B61E14AB820099AB0C /* KLProtocolManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLProtocolManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F91BA1E14AB820099AB0C /* KLProtocolManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLProtocolManagerTests.m; sourceTree = "<group>"; };
+		DF1F91BC1E14AB820099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF1F91C11E14AB820099AB0C /* KLProtocolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLProtocolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF1F91C51E14AB820099AB0C /* KLProtocolManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLProtocolManagerUITests.m; sourceTree = "<group>"; };
+		DF1F91C71E14AB820099AB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF1F919A1E14AB820099AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91B31E14AB820099AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91BE1E14AB820099AB0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF1F91941E14AB820099AB0C = {
+			isa = PBXGroup;
+			children = (
+				DF1F919F1E14AB820099AB0C /* KLProtocolManager */,
+				DF1F91B91E14AB820099AB0C /* KLProtocolManagerTests */,
+				DF1F91C41E14AB820099AB0C /* KLProtocolManagerUITests */,
+				DF1F919E1E14AB820099AB0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF1F919E1E14AB820099AB0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F919D1E14AB820099AB0C /* KLProtocolManager.app */,
+				DF1F91B61E14AB820099AB0C /* KLProtocolManagerTests.xctest */,
+				DF1F91C11E14AB820099AB0C /* KLProtocolManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF1F919F1E14AB820099AB0C /* KLProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F91A31E14AB820099AB0C /* AppDelegate.h */,
+				DF1F91A41E14AB820099AB0C /* AppDelegate.m */,
+				DF1F91A61E14AB820099AB0C /* ViewController.h */,
+				DF1F91A71E14AB820099AB0C /* ViewController.m */,
+				DF1F91A91E14AB820099AB0C /* Main.storyboard */,
+				DF1F91AC1E14AB820099AB0C /* Assets.xcassets */,
+				DF1F91AE1E14AB820099AB0C /* LaunchScreen.storyboard */,
+				DF1F91B11E14AB820099AB0C /* Info.plist */,
+				DF1F91A01E14AB820099AB0C /* Supporting Files */,
+			);
+			path = KLProtocolManager;
+			sourceTree = "<group>";
+		};
+		DF1F91A01E14AB820099AB0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F91A11E14AB820099AB0C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF1F91B91E14AB820099AB0C /* KLProtocolManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F91BA1E14AB820099AB0C /* KLProtocolManagerTests.m */,
+				DF1F91BC1E14AB820099AB0C /* Info.plist */,
+			);
+			path = KLProtocolManagerTests;
+			sourceTree = "<group>";
+		};
+		DF1F91C41E14AB820099AB0C /* KLProtocolManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF1F91C51E14AB820099AB0C /* KLProtocolManagerUITests.m */,
+				DF1F91C71E14AB820099AB0C /* Info.plist */,
+			);
+			path = KLProtocolManagerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF1F919C1E14AB820099AB0C /* KLProtocolManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1F91CA1E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManager" */;
+			buildPhases = (
+				DF1F91991E14AB820099AB0C /* Sources */,
+				DF1F919A1E14AB820099AB0C /* Frameworks */,
+				DF1F919B1E14AB820099AB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KLProtocolManager;
+			productName = KLProtocolManager;
+			productReference = DF1F919D1E14AB820099AB0C /* KLProtocolManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF1F91B51E14AB820099AB0C /* KLProtocolManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1F91CD1E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManagerTests" */;
+			buildPhases = (
+				DF1F91B21E14AB820099AB0C /* Sources */,
+				DF1F91B31E14AB820099AB0C /* Frameworks */,
+				DF1F91B41E14AB820099AB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1F91B81E14AB820099AB0C /* PBXTargetDependency */,
+			);
+			name = KLProtocolManagerTests;
+			productName = KLProtocolManagerTests;
+			productReference = DF1F91B61E14AB820099AB0C /* KLProtocolManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF1F91C01E14AB820099AB0C /* KLProtocolManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1F91D01E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManagerUITests" */;
+			buildPhases = (
+				DF1F91BD1E14AB820099AB0C /* Sources */,
+				DF1F91BE1E14AB820099AB0C /* Frameworks */,
+				DF1F91BF1E14AB820099AB0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF1F91C31E14AB820099AB0C /* PBXTargetDependency */,
+			);
+			name = KLProtocolManagerUITests;
+			productName = KLProtocolManagerUITests;
+			productReference = DF1F91C11E14AB820099AB0C /* KLProtocolManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF1F91951E14AB820099AB0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KevinLab;
+				TargetAttributes = {
+					DF1F919C1E14AB820099AB0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53G8WC3SG7;
+						ProvisioningStyle = Automatic;
+					};
+					DF1F91B51E14AB820099AB0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53G8WC3SG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF1F919C1E14AB820099AB0C;
+					};
+					DF1F91C01E14AB820099AB0C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 53G8WC3SG7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF1F919C1E14AB820099AB0C;
+					};
+				};
+			};
+			buildConfigurationList = DF1F91981E14AB820099AB0C /* Build configuration list for PBXProject "KLProtocolManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF1F91941E14AB820099AB0C;
+			productRefGroup = DF1F919E1E14AB820099AB0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF1F919C1E14AB820099AB0C /* KLProtocolManager */,
+				DF1F91B51E14AB820099AB0C /* KLProtocolManagerTests */,
+				DF1F91C01E14AB820099AB0C /* KLProtocolManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF1F919B1E14AB820099AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F91B01E14AB820099AB0C /* LaunchScreen.storyboard in Resources */,
+				DF1F91AD1E14AB820099AB0C /* Assets.xcassets in Resources */,
+				DF1F91AB1E14AB820099AB0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91B41E14AB820099AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91BF1E14AB820099AB0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF1F91991E14AB820099AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F91A81E14AB820099AB0C /* ViewController.m in Sources */,
+				DF1F91A51E14AB820099AB0C /* AppDelegate.m in Sources */,
+				DF1F91A21E14AB820099AB0C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91B21E14AB820099AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F91BB1E14AB820099AB0C /* KLProtocolManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF1F91BD1E14AB820099AB0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF1F91C61E14AB820099AB0C /* KLProtocolManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF1F91B81E14AB820099AB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1F919C1E14AB820099AB0C /* KLProtocolManager */;
+			targetProxy = DF1F91B71E14AB820099AB0C /* PBXContainerItemProxy */;
+		};
+		DF1F91C31E14AB820099AB0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF1F919C1E14AB820099AB0C /* KLProtocolManager */;
+			targetProxy = DF1F91C21E14AB820099AB0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF1F91A91E14AB820099AB0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1F91AA1E14AB820099AB0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF1F91AE1E14AB820099AB0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF1F91AF1E14AB820099AB0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF1F91C81E14AB820099AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF1F91C91E14AB820099AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF1F91CB1E14AB820099AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF1F91CC1E14AB820099AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF1F91CE1E14AB820099AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLProtocolManager.app/KLProtocolManager";
+			};
+			name = Debug;
+		};
+		DF1F91CF1E14AB820099AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLProtocolManager.app/KLProtocolManager";
+			};
+			name = Release;
+		};
+		DF1F91D11E14AB820099AB0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLProtocolManager;
+			};
+			name = Debug;
+		};
+		DF1F91D21E14AB820099AB0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 53G8WC3SG7;
+				INFOPLIST_FILE = KLProtocolManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinLab.KLProtocolManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KLProtocolManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF1F91981E14AB820099AB0C /* Build configuration list for PBXProject "KLProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F91C81E14AB820099AB0C /* Debug */,
+				DF1F91C91E14AB820099AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1F91CA1E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F91CB1E14AB820099AB0C /* Debug */,
+				DF1F91CC1E14AB820099AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1F91CD1E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F91CE1E14AB820099AB0C /* Debug */,
+				DF1F91CF1E14AB820099AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF1F91D01E14AB820099AB0C /* Build configuration list for PBXNativeTarget "KLProtocolManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF1F91D11E14AB820099AB0C /* Debug */,
+				DF1F91D21E14AB820099AB0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF1F91951E14AB820099AB0C /* Project object */;
+}
